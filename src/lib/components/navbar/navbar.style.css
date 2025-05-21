@@ -1,8 +1,17 @@
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+        width: 100%;
+         z-index: 1000;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          background-color: #FFFFFF;
 }
+
+
 
 .container-buttons {
     display: flex;
@@ -19,6 +28,9 @@ nav {
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    border: 1px solid black !important;
+    text-decoration: none;
+    color: inherit;
 }
 
 .btn-hamburger {
@@ -119,9 +131,22 @@ nav {
 
 
 @media screen and (min-width: 1024px) {
-    nav {
-        padding: 0.5rem 3rem 0 3rem;
-    }
+nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1440px;
+    padding: 1rem 2rem;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+     nav .logo {
+        display: none;
+     }
 
     .btn-cta:hover {
         background-color: #F6EEEE;

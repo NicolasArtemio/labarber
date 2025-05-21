@@ -41,7 +41,7 @@
     });
 </script>
 
-<section class="gallery">
+<section id="gallery" class="gallery" style="scroll-margin-top: 4rem;">
     <h3 class="bebas-neue-regular">Looks</h3>
     <div class="carousel">
         {#each images as src, i}

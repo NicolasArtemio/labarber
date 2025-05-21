@@ -1,9 +1,18 @@
 <script>
-  
+        import gsap from "gsap";
+    import { onMount } from "svelte";
     import './hero.style.css'
-
+        onMount(() => {
+        gsap.from(".hero", {
+            y: 100,
+            opacity: 0,
+            duration: 2,
+            stagger: 0.3,
+            ease: "power3.out"
+        });
+    });
 </script>
-<section class="hero">
+<section class="hero" id="home" style="scroll-margin-top: 1rem;">
   <div class="overlay"></div>
   <picture>
     <source class="background-desktop" srcset="/assets/bg-desktop.avif" media="(min-width: 1024px)">

@@ -35,7 +35,7 @@ article {
 .card-content {
     margin-top: 1rem;
     margin-left: 1rem;
-    padding: 0 0.5rem;
+    padding:0 0.4rem;
 }
 
 
@@ -75,7 +75,9 @@ section article:nth-of-type(2) .card-content {
     margin-left: 0.6rem;
     padding: 0 0.5rem;
 }
-
+section article:nth-of-type(2) .margen {
+    transform: scaleX(-1); 
+}
 section article:nth-of-type(2) .margen {
     top: 0;
     right: 0;
@@ -112,7 +114,7 @@ section article:nth-of-type(2) .card {
     .service article:nth-of-type(2) .card-content {
         margin-top: 1rem;
         margin-left: 0.6rem;
-        padding: 0 0.6rem 0 0.1rem;
+        padding: 0 1rem 0 0.1rem;
     }
 
 
@@ -216,6 +218,10 @@ section article:nth-of-type(2) .card {
          margin-left: 1rem;
          padding: 0 0.5rem;
      }
+
+     section article:nth-of-type(2) .margen {
+    transform: scaleX(1); 
+}
 
     .font-title {
         font-size: 26px;

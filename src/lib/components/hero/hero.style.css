@@ -6,6 +6,7 @@
   text-align: center;
   color: white;
   font-family: sans-serif;
+  margin-top: 5rem;
 }
 
 .background-image {
@@ -69,7 +70,7 @@
   .hero {
     position: relative;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1440px;
     overflow: hidden;
     text-align: center;
     color: white;

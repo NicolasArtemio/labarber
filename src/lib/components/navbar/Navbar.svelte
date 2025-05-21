@@ -15,21 +15,21 @@
 
 <header>
   <nav>
-    <div>
+    <div class="logo">
       <img src="/assets/logobarber.png" alt="logo-barberia" />
     </div>
 
     <div class="container-buttons">
       <ul class="bebas-neue-regular">
         <li><a href="#home">Inicio</a></li>
-        <li><a href="#service">Servicios</a></li>
+        <li><a href="#services">Servicios</a></li>
         <li><a href="#gallery">Galería</a></li>
         <li><a href="#location">Ubicación</a></li>
       </ul>
 
-      <button type="button" class="bebas-neue-regular btn-cta">
+      <a href="#form" class="bebas-neue-regular btn-cta">
         Reservar Turno
-      </button>
+      </a>
 
       <button
         type="button"
